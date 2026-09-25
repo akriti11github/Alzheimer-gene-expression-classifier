@@ -11,7 +11,7 @@ We analyzed a selected set of 10 brain samples from the GSE5281 dataset, compris
 
 ## **Results**
 
-GAD1, RPS3A, MAPK1, ANK3, PRNP, and MALAT1 showed lower expression in the Alzheimer's samples in the exploratory analysis. These genes relate to inhibitory neurotransmission, intracellular signaling, neuronal structure, protein synthesis, neuronal protein biology, and gene regulation. None of the highlighted genes crossed the nominal p < 0.05 threshold in this small analysis.
+The volcano plot particularly highlights RPS3A, HECTD1, MAPK1, and GAD1 based on their fold-change positions, while the broader biological interpretation additionally considers UQCC2. These genes relate to inhibitory neurotransmission, intracellular signaling, neuronal structure, protein synthesis, neuronal protein biology, and gene regulation. None of the highlighted genes crossed the nominal p < 0.05 threshold in this small analysis.
 
 The Logistic Regression model achieved 100% average training accuracy but an average 70% test accuracy. Across repeated train/test splits, test accuracy ranged from 50% to 100%, with a standard deviation of 16.96 percentage points, demonstrating substantial instability in performance.
 
@@ -21,7 +21,7 @@ The analysis is limited by the very small sample size and the high-dimensional f
 
 ## **Conclusion**
 
-This project helped us explore how gene-expression changes in Alzheimer's disease can be studied using bioinformatics and machine learning. I found lower expression of **GAD1, RPS3A, MAPK1, ANK3, PRNP, and MALAT1** in the Alzheimer's samples, with GAD1 being particularly interesting because of its role in GABA production and neuronal communication.
+This project helped us explore how gene-expression changes in Alzheimer's disease can be studied using bioinformatics and machine learning. 
 
 The machine-learning model could separate the Alzheimer's and Normal samples very well during training, but its performance on unseen samples was much less stable. This showed me an important lesson: **a model can perform extremely well on a small dataset without necessarily being reliable on new patients.**
 
