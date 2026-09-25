@@ -1,0 +1,32 @@
+Differential Expression Visualization
+
+The volcano plot represents:
+
+X-axis: Log2 Fold Change (AD vs Normal)
+Y-axis: −log10(p-value)
+Green vertical lines: |log2FC| = 1
+Red horizontal line: p = 0.05
+
+Therefore:
+
+Positive log2FC → higher expression in AD relative to Normal
+Negative log2FC → lower expression in AD relative to Normal
+Points farther upward → smaller p-values
+Points beyond the green lines → |log2FC| > 1
+
+Volcano Plot
+
+The analysis identified several genes with relatively large positive log2 fold changes.
+
+Highlighted genes include:
+-RPS3A
+
+-HECTD1
+
+-MAPK1
+
+-GAD1
+
+However, an important statistical observation is that the highlighted genes do not cross the p < 0.05 threshold in the displayed volcano plot.
+
+Therefore, these genes should be interpreted as genes showing notable fold-change patterns, rather than statistically significant differentially expressed genes under the plotted p-value criterion.
